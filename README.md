@@ -99,8 +99,8 @@ First, prepare the Python environment inside the `functions/` directory:
 
 ```bash
 cd functions
-python -m venv venv # or venv\Scripts\activate on Windows
-source venv/bin/activate
+python -m venv venv 
+source venv/bin/activate # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
 cd ..
 firebase emulators:start
@@ -142,12 +142,6 @@ This will start the local Firebase emulator and load the cloud functions correct
 * Extracts structured medical info
 * Returns human-readable diagnosis
 * Agentic version supports memory and intelligent flow orchestration
-
----
-
-## 📄 License
-
-MIT License
 
 ---
 
